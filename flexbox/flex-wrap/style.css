@@ -7,13 +7,13 @@
     /* flex-wrap: wrap-reverse; */
     /* For pic-(x+4) */
     /* flex-direction: row; */
-    /* For pic-1 */
+    /* For pic-1 (Main Axis is right-left and Cross Axis is top-bottom)*/
     /* flex-direction: row-reverse; */
-    /* For pic-2 */
+    /* For pic-2 (Main Axis is left-right and Cross Axis is top-bottom)*/
     /* flex-direction: column; */
-    /* For pic-3 */
+    /* For pic-3 (Main Axis is left-right and Cross Axis is bottom-top)*/
     /* flex-direction: column-reverse;  */
-    /* For pic-4 */
+    /* For pic-4 (Main Axis is right-left and Cross Axis is bottom-top)*/
 }
 
 .item {
