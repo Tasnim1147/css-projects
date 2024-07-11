@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+    border: 10px solid goldenrod; 
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.item {
+    font-size: 2em;
+    text-align: center;
+}
+
+.item1 {
+    background-color: violet;
+    font-size: 25px;
+}
+
+.item2 {
+    background-color: indigo;
+    font-size: 35px;
+}
+
+.item3 {
+    background-color: blue;
+    font-size: 50px;
+}
+
+.item4 {
+    background-color: green;
+    font-size: 70px;
+}
+
+.item5 {
+    background-color: yellow;
+    font-size: 95px;
+}
+
+.item6 {
+    background-color: orange;
+    font-size: 115px;
+}
+
+.item7 {
+    background-color: red;
+    font-size: 135px;
+}
+
+.item8 {
+    font-size: 155px;
+    background-color: purple;
+}
+
+.item9 {
+    background-color: pink;
+    font-size: 175px;
+}
+
+.item10 {
+    background-color: brown;
+    font-size: 205px;
+}
