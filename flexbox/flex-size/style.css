@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    border: 10px solid goldenrod;
+}
+
+.item {
+    font-size: 2em;
+    text-align: center;
+    flex:1;
+}
+
+.item1 {
+    background-color: violet;
+}
+
+.item2 {
+    background-color: indigo;
+    flex: 2;
+}
+
+.item3 {
+    background-color: blue;
+    flex: 0.5;
+}
+
+.item4 {
+    background-color: green;
+}
+
+.item5 {
+    background-color: yellow;
+    flex:3;
+}
+
+.item6 {
+    background-color: orange;
+}
+
+.item7 {
+    background-color: red;
+}
+
+.item8 {
+    background-color: purple;
+}
+
+.item9 {
+    background-color: pink;
+}
+
+.item10 {
+    background-color: brown;
+}
