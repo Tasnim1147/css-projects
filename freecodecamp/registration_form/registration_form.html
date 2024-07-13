@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+    <link href="registration_form.css" rel="stylesheet">
+</head>
+
+<body>
+    <form action="" class="registration_form">
+        <!-- title should be Registration form -->
+        <h2>Registration Form</h2>
+        <p>Please fill out this form with the required information</p>
+        <fieldset>
+            <legend>Enter Your First Name:</legend>
+            <input type="text" name="first_name" id="first_name" class="text_input">
+        </fieldset>
+        <fieldset>
+            <legend>Enter Your Last Name:</legend>
+            <input type="text" name="last_name" id="last_name" class="text_input">
+        </fieldset>
+        <fieldset>
+            <legend>Enter Your Email:</legend>
+            <input type="email" name="email" id="email" class="text_input">
+        </fieldset>
+        <fieldset>
+            <legend>Create a New Password:</legend>
+            <input type="password" name="password" id="password" class="text_input">
+        </fieldset>
+        <fieldset class="hrule">
+            <hr>
+        </fieldset>
+        <fieldset>
+            <legend>Account type(required)</legend>
+            <!-- Two exclusive options for account type (Personal and Business) -->
+            <input type="radio" name="account_type" id="personal" value="personal" required>
+            <label for="personal">Personal</label>
+            <input type="radio" name="account_type" id="business" value="business" required>
+            <label for="business">Business</label>
+        </fieldset>
+        <fieldset class="hrule">
+            <hr>
+        </fieldset>
+        <fieldset>
+            <legend>Upload a profile picture:</legend>
+            <input type="file" name="profile_picture" id="profile_picture" class="image_input">
+
+        </fieldset>
+        <fieldset>
+            <legend>Input your age(years)</legend>
+            <input type="number" name="age" id="age" class="text_input">
+        </fieldset>
+        <fieldset>
+            <legend>How did you hear about us?</legend>
+            <select name="referrer" id="referrer" class="referrer">
+                <option value="">(select one)</option>
+                <option value="1">freeCodeCamp News</option>
+                <option value="2">freeCodeCamp YouTube Channel</option>
+                <option value="3">freeCodeCamp Forum</option>
+                <option value="4">Other</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Provide bio:</legend>
+            <textarea name="bio" id="bio" class="text_input bio" placeholder="I love coding in the beach..."></textarea>
+        </fieldset>
+        <!-- Accepting terms and conditions checkbox -->
+        <div class="terms_and_conditions">
+            <input type="checkbox" name="terms_and_conditions" id="terms_and_conditions">
+            <label for="terms_and_conditions">I agree to the <a
+                    href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+        </div>
+        <button type="submit" class="submit_button">Submit</button>
+    </form>
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+body {
+    background-color: #1b1b32;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.registration_form {
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid white; */
+    padding: 5px;
+    width: 550px;
+    margin: 0 auto;
+    background-color: #1b1b32;
+    color: white;
+
+
+}
+.registration_form > h2 {
+    font-size: 35px;
+    font-weight: 900;
+}
+
+.registration_form > p {
+    margin-top: -5px;
+    margin-bottom: 25px;
+}
+
+.registration_form > h2, .registration_form > p {
+    text-align: center;
+}
+
+fieldset {
+    /* border: 1px solid green; */
+    border: none;
+    margin-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+
+    
+}
+.text_input {
+    background-color: #0a0a23;
+    border: none;
+    width: 100%;
+    height: 25px;
+    /* border: 1px solid blue; */
+    color: white;
+}
+
+
+.hrule {
+    /* padding: 0px; */
+    /* border: 1px solid green; */
+    /* padding-top: 0px; */
+    /* padding-bottom: 0px; */
+    margin-top: -10px;
+    /* padding-right: 10px; */
+}
+.hrule > hr {
+    width: 100%;
+    padding: 0px;
+}
+
+.terms_and_conditions {
+    
+    /* border: 1px solid black; */
+    padding: 5px; 
+}
+
+.image_input {
+    /* border:  1px solid white; */
+    width: 100%;
+    height: 20px;
+    background-color: #0a0a23;
+}
+
+.referrer {
+    width: 100%;
+}
+
+.bio {
+    height: 50px;
+    width: 100%;
+}
+
+.submit_button {
+    background-color: #0a0a23;
+    border: 1px solid white;
+    color: white;
+    width: 50%;
+    height: 30px;
+    margin: 10px auto;
+    background-color:#3b3b4f;
+
+}
