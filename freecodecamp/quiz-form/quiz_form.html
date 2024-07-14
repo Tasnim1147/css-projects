@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="quiz_form.css">
+</head>
+
+<body>
+    <header class="head-section">
+        <div class="logo"><img src="fcc_primary.svg" alt=""></div>
+        <div class="title">HTML/CSS Quiz</div>
+        <nav>
+            <ul class="nav-titles">
+                <li><a href="#student-info">INFO</a></li>
+                <li><a href="#html">HTML</a></li>
+                <li><a href="#css">CSS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-section">
+        <form action="#" class="quiz-form">
+            <div class="section" id="student-info">
+
+                <h2 class="subtitle">Student Info</h2>
+                <hr class="line">
+                <div class="section1">
+                    <div class="info">
+                        <label for="name">Name: </label><input type="text" name="name" id="name">
+                    </div>
+                    <div class="info">
+                        <label for="email">Email: </label><input type="email" name="email" id="email">
+                    </div>
+                    <div class="info">
+                        <label for="dob">D.O.B: </label><input type="date" name="dob" id="dob">
+                    </div>
+                </div>
+            </div>
+            <div class="section" id="html">
+                <h2 class="subtitle">HTML</h2>
+                <hr class="line">
+                <div class="section2">
+                    <h3>1</h3>
+
+                    <fieldset class="question">
+                        <legend>
+                            The legend element represents a caption for the content of its parent fieldset
+                            element
+                        </legend>
+                        <div class="choice">
+                            <input type="radio" name="question1" id="true" value="true">
+                            <label for="true">True</label>
+                        </div>
+                        <div class="choice">
+                            <input type="radio" name="question1" id="false" value="false">
+                            <label for="false">False</label>
+                        </div>
+                    </fieldset>
+                    <h3>2</h3>
+                    <fieldset class="question">
+                        <legend>
+                            A label element nesting an input element is required to have a for attribute with
+                            the
+                            same value as the input's id
+                        </legend>
+                        <div class="choice">
+
+                            <input type="radio" name="question2" id="true" value="true">
+                            <label for="true">True</label>
+                        </div>
+                        <div class="choice">
+
+                            <input type="radio" name="question2" id="false" value="false">
+                            <label for="false">False</label>
+                        </div>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="section" id="css">
+                <h2 class="subtitle">CSS</h2>
+                <hr class="line">
+                <div class="section3">
+                    <fieldset class="css-question">
+                        <legend>Can the CSS margin property accept negative values?</legend>
+                        <select name="question3" id="question3">
+                            <option value="#" hidden>Select an option</option>
+                            <option value="true">True</option>
+                            <option value="false">False"></option>
+                        </select>
+                    </fieldset>
+                    <fieldset class="css-question">
+                        <legend>Do you have any questions:</legend>
+                        <textarea name="question4" id="question4" cols="30" rows="10"
+                            placeholder="Who is flexbox..."></textarea>
+                    </fieldset>
+                </div>
+            </div>
+            <div class="section4">
+                <button type="submit" class="submit-button">Submit</button>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p><a href="#" class="line-freecodecamp"><i><u>freecodecamp</u></i></a></p>
+        <p><i>San Francisco</i></p>
+        <p><i>California</i></p>
+        <p><i>USA</i></p>
+    </footer>
+    <script src="#"></script>
+</body>
+
+</html>
